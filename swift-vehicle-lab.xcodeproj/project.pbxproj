@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11F835B91D9C226000C70C8D /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F835B81D9C226000C70C8D /* Vehicle.swift */; };
+		11F835BB1D9C3E9700C70C8D /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F835BA1D9C3E9700C70C8D /* Car.swift */; };
+		11F835BD1D9C40E900C70C8D /* RaceCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F835BC1D9C40E900C70C8D /* RaceCar.swift */; };
+		11F835BF1D9C433A00C70C8D /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F835BE1D9C433A00C70C8D /* Plane.swift */; };
+		11F835C91D9C6C8900C70C8D /* Jet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F835C81D9C6C8900C70C8D /* Jet.swift */; };
 		1B5491761D33D08600698752 /* PlaneSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5491751D33D08600698752 /* PlaneSpec.swift */; };
 		1B5491781D33D0A300698752 /* JetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5491771D33D0A300698752 /* JetSpec.swift */; };
 		1B5E8FE41D3039FD00054FD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E8FE31D3039FD00054FD9 /* AppDelegate.swift */; };
@@ -33,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11F835B81D9C226000C70C8D /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		11F835BA1D9C3E9700C70C8D /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		11F835BC1D9C40E900C70C8D /* RaceCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceCar.swift; sourceTree = "<group>"; };
+		11F835BE1D9C433A00C70C8D /* Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		11F835C81D9C6C8900C70C8D /* Jet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jet.swift; sourceTree = "<group>"; };
 		1B5491751D33D08600698752 /* PlaneSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaneSpec.swift; sourceTree = "<group>"; };
 		1B5491771D33D0A300698752 /* JetSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JetSpec.swift; sourceTree = "<group>"; };
 		1B5E8FE01D3039FD00054FD9 /* swift-vehicle-lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-vehicle-lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				1B5E8FE31D3039FD00054FD9 /* AppDelegate.swift */,
+				11F835B81D9C226000C70C8D /* Vehicle.swift */,
+				11F835BA1D9C3E9700C70C8D /* Car.swift */,
+				11F835BC1D9C40E900C70C8D /* RaceCar.swift */,
+				11F835BE1D9C433A00C70C8D /* Plane.swift */,
+				11F835C81D9C6C8900C70C8D /* Jet.swift */,
 				4C910C671D320A4600649D72 /* Resources */,
 			);
 			path = "swift-vehicle-lab";
@@ -353,8 +368,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F835B91D9C226000C70C8D /* Vehicle.swift in Sources */,
 				1B5E8FE61D3039FD00054FD9 /* ViewController.swift in Sources */,
+				11F835BD1D9C40E900C70C8D /* RaceCar.swift in Sources */,
+				11F835BB1D9C3E9700C70C8D /* Car.swift in Sources */,
+				11F835BF1D9C433A00C70C8D /* Plane.swift in Sources */,
 				1B5E8FE41D3039FD00054FD9 /* AppDelegate.swift in Sources */,
+				11F835C91D9C6C8900C70C8D /* Jet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
